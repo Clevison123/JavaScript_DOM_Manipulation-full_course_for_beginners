@@ -42,6 +42,7 @@ console.log(firstListItem.innerHTML);
 
 //Modifying Attributes & Classes 
 li.classList.remove('list-items')
+//li.classList.add('list-items')
 
 console.log(li.classList.contains('list-items'));
 //-------------------------------------
