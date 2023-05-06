@@ -45,6 +45,8 @@ li.classList.remove('list-items')
 //li.classList.add('list-items')
 
 console.log(li.classList.contains('list-items'));
+//Remove Elements 
+li.remove();
 //-------------------------------------
 
 
@@ -57,3 +59,5 @@ const title = document.querySelector('#main-heading');
 
 console.log(title.getAttribute('id'))
 */
+
+//---------------------------------------------------------
