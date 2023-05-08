@@ -39,7 +39,9 @@
 // Sibling Node Traversal 
 
 let ul = document.querySelector('ul');
-const
+const div = document.querySelector('div')
 
-console.log(ul.previousSibling);
-console.log(ul.nextSibling);
+console.log(div.childNodes);
+
+console.log(ul.previousElementSibling);
+console.log(ul.nextElementSibling);
