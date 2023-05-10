@@ -29,7 +29,8 @@ addTask.addEventListener('click', function(){
         taskContainer.appendChild(task);
     }
 
-    inputTask.value = " "
+
+    inputTask.value = ""
 
     checkButton.addEventListener('click', function(){
 
